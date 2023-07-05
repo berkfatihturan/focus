@@ -1,0 +1,85 @@
+/* header -start- */
+:root {
+  --primary: #1b262c;
+  --secondory: #0f4c75;
+  --light: #3282b8;
+  --white: #bbe1fa;
+}
+
+*{
+    font-family: 'Noto Serif Makasar', serif;
+}
+
+body {
+
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  min-height: 80px;
+  padding: 15px 20px 0 20px;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+#logo {
+  display: inline-block;
+  color: white;
+}
+
+#header-list {
+  display: inline-block;
+  list-style: none;
+  color: white;
+}
+
+.header-list_item {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: transparent !important;
+}
+
+.header-list_item:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.header-list_item .dropdown button {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+/* header -end- */
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-image: url("img/turned-gray-laptop-computer.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.mainbase{
+    position: relative;
+}
+
+.mainbase-context {
+  margin: auto;
+  width: 50%;
+  color: white;
+  text-align: center;
+}
+
+#mainbase-context-title{
+    font-size:  2.125rem !important;
+    word-spacing: 5px;
+}
